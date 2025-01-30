@@ -6,14 +6,45 @@
 
 # Numbers
 
+puts 2
+puts 5
+puts 5+2
+puts 5-2
+puts 5*2
+puts 5/2.0
+
 # Non-numbers
+
+puts "Hello, World!"
+puts "Hello: " + 3.to_s
 
 # True, False
 
+puts true
+puts false
+
 # Nothing
+
+puts nil
 
 # Variables
 
+a = 2+3
+puts a
+
+a = "food"
+times = 3
+puts a * times
+
 # Combine strings and variables
 
+name = "Vivek"
+puts "Hello #{name}"
+
 # String manipulation
+
+ puts "hello".length
+ puts "hello".capitalize
+ puts a.upcase
+ puts a.reverse
+ puts "\"\""
