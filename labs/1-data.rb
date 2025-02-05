@@ -15,3 +15,15 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+# Generate two random numbers between 1 and 6, simulating two dice rolls
+die1 = rand(1..6)
+die2 = rand(1..6)
+
+# Output the results of each die roll
+puts "You rolled a #{die1}"
+puts "You rolled a #{die2}"
+
+# Calculate and display the total of the two dice rolls
+total = die1 + die2
+puts "Total: #{total}"

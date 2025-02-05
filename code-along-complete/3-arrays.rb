@@ -18,6 +18,7 @@ puts mixed_array
 
 # The elements of an array can be anything, even other arrays
 shopping_lists = [["milk", "eggs", "toilet paper"], ["soap", "shampoo", "shaving cream", "toilet paper"]]
+puts"******************"
 puts shopping_lists
 
 # Accessing the array

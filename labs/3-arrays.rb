@@ -15,3 +15,27 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# Define two arrays for shopping lists
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples", "eggs"]
+
+# Combine the lists, remove duplicates, and sort alphabetically
+shared_list = (my_list + friend_list).uniq.sort
+
+# Initialize the index for looping
+index = 0
+
+# Loop through the sorted list and print each item with "buy "
+loop do
+  if index == shared_list.size
+    break
+  end
+
+  item = shared_list[index]
+  puts "buy #{item}"
+
+  # Increment the index to move to the next item
+  index += 1
+end
+
